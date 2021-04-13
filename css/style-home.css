@@ -1,0 +1,162 @@
+
+/*CSS da pagina inicial*/
+
+main {
+	background: linear-gradient(white 50%, rgb(37, 36, 36));
+}
+
+.container{
+	position:relative;
+ 	align-items: center;
+	display: flexbox;
+	justify-content: center;
+	padding: 0 10rem;
+
+
+}
+
+
+/*Banner inicial*/
+
+
+.inicio {
+
+    background:  linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.637)100%), url('/img/photo.jpg');
+    background-size: cover;
+	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+  	background-position: center; 
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+.inicio-title {
+	color: white;
+	font-weight: bold;
+	font-size: 60px;
+	text-align: center;
+	padding-top: 10rem;
+	text-shadow: 0.1em 0.1em black
+}
+
+.bottons {
+	margin-top: 5rem;
+	justify-content: center;
+	position: relative;
+	align-items: center;
+	display: flex;
+}
+
+.botton{
+	padding: 1rem;
+	margin: 0 2rem;
+	border-radius: 5px;
+	background: rgba(54, 51, 51, 0.842);
+	border: 2px solid white;
+	color: white;
+	font-size: 15px;
+	font-weight: 600;
+	transition: 0.3s all;
+}
+
+.botton:hover{
+	border: 2px solid rgb(211, 148, 32);
+	background: rgb(211, 148, 32, 0.500);
+	transform: scale(1.1);
+}
+/* Sobre a barbearia alura */
+
+.titulo-centralizado{
+	text-align: center;
+	font-size: 2rem;
+	margin: 2rem 0 2em;
+	font-weight: 600;
+}
+
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.img-utensilios {
+	float: left;
+	width: 120px;
+	margin: 0 20px 20px 0;	
+}
+
+
+/*Mapa*/
+
+.mapa {
+	padding: 3em 0;
+}
+
+.mapa p{
+	margin: 0 0 2em;
+}
+
+.mapa iframe {
+	min-width: 100%;
+}
+
+.video {
+	width: 560px;
+	margin: 2rem auto;
+}
+
+/* Beneficios da barbearia alura */
+
+.beneficios .titulo-centralizado {
+	color: white;
+}
+.imagem-beneficios {
+	width: 60%;
+
+	
+}
+
+.conteudo-beneficios {
+	width: 640px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: relative;
+	
+}
+
+.lista-beneficios{
+	width: 40%;
+	display: inline-block;
+
+	
+
+}
+
+.itens {
+	line-height: 1.5;
+	color: white;
+	list-style-type: none;
+}
+
+.itens::before {
+	content: "🟊 ";
+}
+
+.itens:first-child {
+	font-weight: bold;
+}
+
+.beneficios {
+	margin-top: 4rem;
+	padding-bottom: 5rem;
+	
+}

@@ -1,0 +1,55 @@
+
+
+/*Conteudo principal*/
+
+main{
+    position: relative;
+    justify-content:space-evenly;
+    flex-direction: row;
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 4rem 120px;
+    min-height: 100vh;
+}
+
+
+.product {
+    width: 280px;
+    height: 500px;
+    border: black solid 3px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px;
+    transition: 0.5s;
+
+}
+
+.product:hover {
+    border-color: chocolate;
+}
+
+.product h2 {
+    font-size: 30px;
+    margin-top: 1rem;
+    font-weight: 700;
+
+}
+
+.product img {
+    margin-top: 2rem;
+    width: 180px;
+}
+
+.descrition {
+    font-size: 18px;
+    margin-top: 2rem;    
+}
+
+.price {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 35px;
+    font-weight: 700;
+}
+
